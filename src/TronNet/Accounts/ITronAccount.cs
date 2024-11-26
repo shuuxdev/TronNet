@@ -11,7 +11,7 @@ namespace TronNet.Accounts
         public string PublicKey { get; }
         public string PrivateKey { get; }
 
-        public string Address { get; }
+        public string Address { get; set; }
 
         byte GetAddressPrefix();
     }

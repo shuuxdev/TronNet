@@ -8,7 +8,7 @@ namespace TronNet.Accounts
 {
     public class TronAccount : ITronAccount
     {
-        public string Address { get; protected set; }
+        public string Address { get; set; }
         public string PublicKey { get; private set; }
         public string PrivateKey { get; private set; }
 
